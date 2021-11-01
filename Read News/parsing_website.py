@@ -1,6 +1,5 @@
 import feedparser
 import csv
-import datetime
 
 
 News_feed = feedparser.parse("https://meduza.io/rss2/all")
