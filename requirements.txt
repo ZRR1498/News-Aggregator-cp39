@@ -7,8 +7,8 @@ idna==3.3
 requests==2.26.0
 sgmllib3k==1.0.0
 urllib3==1.26.7
-psycopg2==2.9.1
 psycopg2-binary==2.9.1
-
 psycopg2==2.9.1
 Flask==2.0.2
+SQLAlchemy==1.4.26
+Werkzeug==2.0.2
