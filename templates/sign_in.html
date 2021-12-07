@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<style>
+    .form-control {
+    }
+</style>
+<div class="col-sm-6">
+    <h1>Sign in your account</h1>
+    <form method="post">
+        <input type="text" class="form-control" name="email" id="email" placeholder="email@examle.com"><br>
+        <input type="text" class="form-control" name="password" id="password" placeholder="Your password"><br>
+        <button class="btn btn-success" type="submit">Sign up</button>
+    </form>
+</div>
+{% endblock %}

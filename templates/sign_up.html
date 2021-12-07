@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<style>
+    .form-control {
+    }
+</style>
+<div class="col-sm-6">
+    <h1>Create new user</h1>
+    <form method="post">
+        <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Name"><br>
+        <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Surname"><br>
+        <input type="text" class="form-control" name="nickname" id="nickname" placeholder="Nickname"><br>
+        <input type="text" class="form-control" name="email" id="email" placeholder="you@example.com"><br>
+        <input type="text" class="form-control" name="password" id="password" placeholder="TeXt"><br>
+        <button class="btn btn-success" type="submit">Sign up</button>
+    </form>
+</div>
+{% endblock %}
