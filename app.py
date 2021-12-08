@@ -36,6 +36,7 @@ with connection.cursor() as cursor:
             user_password varchar);"""
         )
 
+
     #Copy csv in to table pg
 def load_news_to_db():
     parsing_link()
